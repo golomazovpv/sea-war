@@ -1,0 +1,67 @@
+/* reset.css */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin:0;padding:0;border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}
+body {line-height:1.5;}
+table {border-collapse:separate;border-spacing:0;}
+caption, th, td {text-align:left;font-weight:normal;}
+table, td, th {vertical-align:middle;}
+blockquote:before, blockquote:after, q:before, q:after {content:"";}
+blockquote, q {quotes:"" "";}
+a img {border:none;}
+
+
+/* Doc styles */
+
+body {
+    background: #000;
+}
+
+#gread {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position-x: -30px;
+}
+
+#main {
+    width: 960px;
+    height: 150px;
+}
+
+#logo {
+    position: relative;
+    float: left;
+    width: 206px;
+    height: 83px;
+    top: 40px;
+    left: 80px;
+    background: url("img/logo.png");
+}
+
+#enter {
+    position: relative;
+    float: right;
+    top: 20px;
+    right: 120px;
+}
+
+.einput {
+    background: url("img/inp.png");
+    color: #484848;
+    font: normal normal 400 13px/19.5px Arial;
+    height: 16px;
+    margin: 2px 0px 0px;
+    padding: 4px;
+    width: 180px;
+}
+
+.esubmit {
+    width: 100px;
+    height: 30px;
+}
+#mainships {
+    width: 900px;
+    height: 563px;
+    background: url("img/ships.png");
+}
